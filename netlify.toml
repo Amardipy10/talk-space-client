@@ -4,8 +4,7 @@
   command = "npm run build"
 
 [build.environment]
-  NODE_VERSION = "16"
-  NODE_OPTIONS = "--openssl-legacy-provider"
+  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/*"
@@ -25,4 +24,4 @@
 [[headers]]
   for = "/*.css"
   [headers.values]
-    Cache-Control = "max-age=31536000"
+    Cache-Control = "max-age=31536000" 
