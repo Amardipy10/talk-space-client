@@ -1,4 +1,4 @@
-# Shubh Meet - Frontend
+# Talk Space - Frontend
 
 A modern, responsive React frontend for Shubh Meet video conferencing application with Microsoft Teams-inspired design.
 
@@ -52,25 +52,6 @@ A modern, responsive React frontend for Shubh Meet video conferencing applicatio
    npm run build
    ```
 
-## 🎨 Design System
-
-### Color Palette
-- **Primary**: `#6264a7` (Microsoft Teams Purple)
-- **Success**: `#107c10` (Green)
-- **Error**: `#d13438` (Red)
-- **Text**: `#2c3e50` (Dark Blue-Gray)
-- **Background**: `#f8faff` to `#e8f2ff` (Light Blue Gradient)
-
-### Typography
-- **Primary Font**: Segoe UI
-- **Fallbacks**: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue
-
-### Components
-- **Buttons**: Modern design with hover animations
-- **Cards**: Shadow-based design with gradients
-- **Modals**: Backdrop blur with slide animations
-- **Forms**: Clean, accessible form controls
-
 ## 📁 Project Structure
 
 ```
@@ -102,10 +83,6 @@ Create a `.env.local` file in the client directory:
 # API Configuration
 REACT_APP_API_URL=http://localhost:4001/api
 
-# Feature Flags (optional)
-REACT_APP_ENABLE_ANALYTICS=false
-REACT_APP_DEBUG_MODE=true
-```
 
 ## 📱 Available Scripts
 
