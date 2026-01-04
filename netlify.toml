@@ -1,10 +1,10 @@
 [build]
-  base = "client/"
-  publish = "build/"
+  publish = "build"
   command = "npm run build"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "16"
+  NODE_OPTIONS = "--openssl-legacy-provider"
 
 [[redirects]]
   from = "/*"
@@ -24,4 +24,4 @@
 [[headers]]
   for = "/*.css"
   [headers.values]
-    Cache-Control = "max-age=31536000" 
+    Cache-Control = "max-age=31536000"
